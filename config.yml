@@ -1,0 +1,4 @@
+groups_id: ["nightbmstu"]
+dialogs:
+  - {message: "Привет", answer: "Здравствуй"}
+  - {message: "Как тебя звать?", answer: "Анджелина"}

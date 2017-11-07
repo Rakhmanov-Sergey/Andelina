@@ -4,6 +4,8 @@ import logging
 from vk.exceptions import VkAPIError
 from settings import *
 
+
+
 def setup_logger():
     if os.path.isfile(logging_file): os.remove(logging_file)
 
@@ -36,3 +38,12 @@ def auth():
         logging.info("Successfully authorized")
 
     return session, api
+
+def check_messages():
+    return []
+
+def answer_messages(messages, answers):
+    return 0
+
+def group_parsing(groups_ids):
+    return 1
